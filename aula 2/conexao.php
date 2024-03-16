@@ -1,6 +1,6 @@
 <?php
 $servidor ='localhost';
-$bancp_de_dados = 'login';
+$banco_de_dados = 'login';
 $usuario = 'root';
 $senha = '';
 
