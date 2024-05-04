@@ -16,9 +16,9 @@ if ($_SERVER['REQUEST_METHOD']==='POST')
     }
     else
     {
-        echo 'deu ruim' .$mysqli-->error;
+        echo 'deu ruim' .$mysqli->error;
     }
-    $mysqli-->close();
+    $mysqli->close();
 
 }
 

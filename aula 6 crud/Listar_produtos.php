@@ -37,11 +37,11 @@ $resultado = $mysqli->query($sql);
                 while($Linha = $resultado -> fetch_assoc())
                 {
                   echo'<tr>';
-                   echo '<td>'.$Linha['Id']. '</td>';
+                   echo '<td>'.$Linha['id']. '</td>';
                    echo '<td>'.$Linha['nome']. '</td>';
                    echo '<td>'.$Linha['valor']. '</td>';
                    echo '<td>'.$Linha['quantidade']. '</td>';
-                   echo '<td><a href="editar_produtos.php?id='. $linha['Id'] .'">Editar</a> | <a href="deletar_produto.php?id='. $linha['Id'] .'">Deletar</a></td>';
+                   echo '<td><a href="editar_produtos.php?id='. $Linha['id'] .'">Editar</a> | <a href="deletar_produto.php?id='. $Linha['id'] .'">Deletar</a></td>';
                   echo '</tr>';
                 }
             }
