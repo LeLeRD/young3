@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    background-color: brown;
+    height: 20vh;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 8%, #b91d20 52%, #000000 90%);
+}
+
+div.conteiner{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    
+}
+
+div img{
+    height: 60vh;
+    width: 60vh;
+    
+}
+
+
+
+
+
+
+
