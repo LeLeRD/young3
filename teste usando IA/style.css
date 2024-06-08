@@ -12,11 +12,19 @@ body {
     justify-content: center;
 }
 
-.conteiner-imagens {
+div.conteiner-imagens{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(1, 1fr); /* Define uma única coluna */
+    gap: 20px; /* Espaçamento entre as imagens */
+    justify-items: center; /* Centraliza as imagens horizontalmente */
+    margin: 100px auto; /* Centraliza o grid na página */
 }
+
+div img{
+    max-width: 100%; /* Garante que as imagens não ultrapassem o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
 
 .photo {
     position: relative;

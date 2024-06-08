@@ -34,10 +34,8 @@ div.conteiner{
     font-family: 'Playfair Display';
     font-size: 50px;
     display: grid;
-    align-items: center;
-    float: left;
-    width: 33.33%;
-    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 div.conteiner-imagens{
