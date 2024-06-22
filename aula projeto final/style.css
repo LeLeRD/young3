@@ -53,6 +53,8 @@ div.conteiner-imagens{
 div img{
     /* height: 400px; */
     width: 100px; 
+    padding: 100px;
+
 }
 
 .photo {
@@ -60,14 +62,16 @@ div img{
     overflow: hidden;
 }
 
-.photo img {
+.photo img{
+    position: relative;
+    overflow: hidden;
     display: block;
     width: 100%;
     height: 400px;
     transition: transform 0.5s ease;
 }
 
-.photo::before {
+.photo::before{
     content: attr(data-title);
     position: absolute;
     bottom: 0;
