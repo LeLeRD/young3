@@ -9,14 +9,10 @@
 
 .titulo{
     background-color: rgb(103, 34, 34);
-    height: 250px;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     font-size: 100px;
-    padding-right: 50px;
-    height: 20vh;
+    padding: 10px;
     font-family: "Great Vibes", cursive;
 
 }
@@ -24,54 +20,44 @@
 body{
 
     width: 100vw;
-    height: 100vh;
-    background-color: #000000;
+    height: 250vh;
     background-color: #000000;
     background-image: linear-gradient(180deg, #000000 60%, #ff0002 100%);
 }
 
 div.conteiner{
-    height: 100%;
+    height: 200vh;
     width: 100%;
-    font-family: 'Playfair Display';
-    font-size: 50px;
-    /* display: grid;
-    grid-template-columns: repeat(1, 1fr); */
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div.conteiner-imagens{
     display: grid;
-    margin: 100px;
-    column-gap: 50px;
-    height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center; 
-    row-gap: 40%;
+    column-gap: 30px;
+    row-gap: 30px;
 }
 
-div img{
-    /* height: 400px; */
-    width: 100px; 
-    padding: 100px;
-
-}
 
 .photo {
     position: relative;
     overflow: hidden;
+
 }
 
 .photo img{
     position: relative;
     overflow: hidden;
     display: block;
-    width: 100%;
+    width: 350px;
     height: 400px;
     transition: transform 0.5s ease;
 }
 
 .photo::before{
+    font-size: 50px;
     content: attr(data-title);
     position: absolute;
     bottom: 0;
