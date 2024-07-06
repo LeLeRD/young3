@@ -1,6 +1,6 @@
 <?php
 $servidor ='localhost';
-$banco_de_dados = 'test';
+$banco_de_dados = 'artistas';
 $usuario = 'root';
 $senha = '';
 
